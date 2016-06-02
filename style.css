@@ -1,0 +1,156 @@
+
+         
+
+		 h2{
+         color: white;
+         font-family: 'Fredericka the Great', cursive;
+         text-align: left;
+         margin: 10px;
+         }
+         .titulo{
+         color: white;
+         font-family: 'Fredericka the Great', cursive;
+		 font-size: 3em;
+		 text-align:center;
+         }
+         p{
+         color: white;
+         font-family: 'Fredericka the Great', cursive;
+         text-align: justify;
+		 font-size:1.5em;
+         padding: 10px;
+         margin: 10px;
+         }
+         .cdiv {
+         border-top: 3px solid #6100ff;
+         float: center;
+         margin: auto;
+         padding: 5px;
+         width: 75%;
+         height: 75%;
+         align: center;
+         background-image: url("img/board.png");
+         -webkit-transition: 0.8s;
+         -moz-transition: 0.8s;
+         -o-transition: 0.8s;
+         transition: 0.8s;
+         } 
+         .cdiv:hover{
+         -webkit-box-shadow: 0px 0px 16px 2px rgba(0,0,0,1);
+-moz-box-shadow: 0px 0px 16px 2px rgba(0,0,0,1);
+box-shadow: 0px 0px 16px 2px rgba(0,0,0,1);
+         }
+         .cbody{
+         background-color:#444444;
+         }
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 
+		 .form-container {
+   border-top: 3px solid #00d4ff;
+   background: #545454;
+   background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#545454));
+   background: -webkit-linear-gradient(top, #000000, #545454);
+   background: -moz-linear-gradient(top, #000000, #545454);
+   background: -ms-linear-gradient(top, #000000, #545454);
+   background: -o-linear-gradient(top, #000000, #545454);
+   background-image: -ms-linear-gradient(top, #000000 0%, #545454 100%);
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(000,000,000,0.9) 0 0px 2px, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(000,000,000,0.9) 0 0px 2px, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(000,000,000,0.9) 0 0px 2px, inset rgba(255,255,255,0.4) 0 1px 0;
+   font-family: 'Fredericka the Great', cursive;
+   text-decoration: none;
+   vertical-align: middle;
+   min-width:300px;
+   padding:20px;
+   width:300px;
+   }
+.form-field {
+   background: #757575;
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   color: #ffffff;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(000,000,000,0.7) 0 1px 1px;
+   padding:8px;
+   margin-bottom:20px;
+   width:280px;
+   }
+.form-field:focus {
+   background: #fffcff;
+   color: #000000;
+   }
+.form-container h2 {
+   text-shadow: #2e2e2e 0 1px 0;
+   font-size:18px;
+   margin: 0 0 10px 0;
+   font-weight:bold;
+   text-align:center;
+    }
+.form-title {
+   margin-bottom:10px;
+   color: #ffffff;
+   text-shadow: #2e2e2e 0 1px 0;
+   }
+.submit-container {
+   margin:8px 0;
+   text-align:right;
+   }
+.submit-button {
+   background: #636363;
+   background: -webkit-gradient(linear, left top, left bottom, from(#595959), to(#636363));
+   background: -webkit-linear-gradient(top, #595959, #636363);
+   background: -moz-linear-gradient(top, #595959, #636363);
+   background: -ms-linear-gradient(top, #595959, #636363);
+   background: -o-linear-gradient(top, #595959, #636363);
+   background-image: -ms-linear-gradient(top, #595959 0%, #636363 100%);
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   border-radius: 0px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 0px 0, inset rgba(255,255,255,0.4) 0 0px 0;
+   text-shadow: #000000 0 1px 0;
+   color: #ffffff;
+   font-family: helvetica, serif;
+   padding: 8.5px 18px;
+   font-size: 14px;
+   text-decoration: none;
+   vertical-align: middle;
+   }
+.submit-button:hover {
+   text-shadow: #000000 0 1px 0;
+   background: #00d9ff;
+   background: -webkit-gradient(linear, left top, left bottom, from(#00aeff), to(#00d9ff));
+   background: -webkit-linear-gradient(top, #00aeff, #00d9ff);
+   background: -moz-linear-gradient(top, #00aeff, #00d9ff);
+   background: -ms-linear-gradient(top, #00aeff, #00d9ff);
+   background: -o-linear-gradient(top, #00aeff, #00d9ff);
+   background-image: -ms-linear-gradient(top, #00aeff 0%, #00d9ff 100%);
+   color: #000000;
+   }
+.submit-button:active {
+   border: 0px solid #447314;
+   background: #5200cc;
+   background: -webkit-gradient(linear, left top, left bottom, from(#320061), to(#00d9ff));
+   background: -webkit-linear-gradient(top, #320061, #5200cc);
+   background: -moz-linear-gradient(top, #320061, #5200cc);
+   background: -ms-linear-gradient(top, #320061, #5200cc);
+   background: -o-linear-gradient(top, #320061, #5200cc);
+   background-image: -ms-linear-gradient(top, #320061 0%, #5200cc 100%);
+   color: #ffffff;
+   }
+		 
+		 
